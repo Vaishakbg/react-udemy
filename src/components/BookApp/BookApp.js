@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import BookCreate from './BookCreate'
 import BookList from './BookList'
 import axios from 'axios';
+import BookContext from '../../context/context';
 
 function BookApp() {
   const [books, setBooks] = useState([]);
@@ -42,11 +43,14 @@ function BookApp() {
     setBooks(updatedBooks);
   }
   return (
-    <div className='app'>
-      <h1>Reading List</h1>
-      <BookList books={books} onDelete={deleteBookById} onEdit={editBookById}/>
-      <BookCreate onCreate={createBook} />
-    </div>
+    <BookContext.Provider value={5}>
+      <div className='app'>
+        <h1>Reading List</h1>
+        <BookList books={books} onDelete={deleteBookById} onEdit={editBookById}/>
+        <BookCreate onCreate={createBook} />
+      </div>
+    </BookContext.Provider>
+    
   )
 }
 
