@@ -1,0 +1,24 @@
+.search-bar {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.search-bar form {
+    display: flex;
+}
+
+.search-bar form input{
+    margin-right: 10px;
+    border:1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+}
+.search-bar form button{
+    border:1px solid purple;
+    background-color: purple;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
