@@ -5,7 +5,7 @@ function RouterApp() {
   return (
     <div>
         <div>
-            <Button outlined rounded primary success>Primary</Button>
+            <Button outlined rounded primary>Primary</Button>
         </div>
         <div>
             <Button rounded secondary>Secondary</Button>
@@ -14,7 +14,7 @@ function RouterApp() {
             <Button warning outlined>Bye Now!</Button>
         </div>
         <div>
-            <Button danger rounded>Click Here!</Button>
+            <Button success rounded>Click Here!</Button>
         </div>
         <div>
             <Button danger outlined>Danger</Button>
