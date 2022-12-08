@@ -1,14 +1,16 @@
+import { GoBell, GoDatabase } from "react-icons/go";
 import React from 'react'
 import Button from './Button'
+
 
 function RouterApp() {
   return (
     <div>
         <div>
-            <Button>Plain</Button>
+            <Button> <GoBell />Plain</Button>
         </div>
         <div>
-            <Button outline rounded primary>Primary</Button>
+            <Button outline rounded primary><GoDatabase />Primary</Button>
         </div>
         <div>
             <Button rounded secondary>Secondary</Button>
