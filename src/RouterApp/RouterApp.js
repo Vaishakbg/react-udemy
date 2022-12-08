@@ -5,19 +5,19 @@ function RouterApp() {
   return (
     <div>
         <div>
-            <Button>Primary</Button>
+            <Button outlined rounded primary success>Primary</Button>
         </div>
         <div>
-            <Button>Secondary</Button>
+            <Button rounded secondary>Secondary</Button>
         </div>
         <div>
-            <Button>Bye Now!</Button>
+            <Button warning outlined>Bye Now!</Button>
         </div>
         <div>
-            <Button>Click Heare!</Button>
+            <Button danger rounded>Click Heare!</Button>
         </div>
         <div>
-            <Button>Hi</Button>
+            <Button danger outlined>Hi</Button>
         </div>
     </div>
   )
