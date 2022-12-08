@@ -9,7 +9,7 @@ function BookApp() {
 
   useEffect(() => {
     fetchBooks();
-  }, []);
+  }, [fetchBooks]);
   
   
   return (
