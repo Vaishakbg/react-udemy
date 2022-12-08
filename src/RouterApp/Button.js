@@ -13,7 +13,7 @@ function Button({
     rounded
 }) {
   return (
-    <button>{children}</button>
+    <button className='px-3 py-1.5 border border-blue-500 bg-blue-500 text-white'>{children}</button>
   )
 }
 
