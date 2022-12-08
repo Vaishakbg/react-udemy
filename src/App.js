@@ -1,12 +1,15 @@
 import React from "react";
 import 'bulma/css/bulma.css';
 import BookApp from "./components/BookApp/BookApp";
+import { Provider } from "./context/books";
 
 function App() {
   return (
-    <div>
-      <BookApp />
-    </div>
+    <Provider>
+      <div>
+        <BookApp />
+      </div>
+    </Provider>
   );
 }
 
