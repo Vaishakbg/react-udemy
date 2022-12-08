@@ -10,7 +10,7 @@ function RouterApp() {
   return (
     <div>
         <div>
-            <Button onClick={handleClick}> <GoBell />Plain</Button>
+            <Button onClick={handleClick} className="mb-2"> <GoBell />Plain</Button>
         </div>
         <div>
             <Button outline rounded primary><GoDatabase />Primary</Button>
