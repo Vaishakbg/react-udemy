@@ -4,10 +4,13 @@ import Button from './Button'
 
 
 function RouterApp() {
+    const handleClick = () => {
+        console.log('clicked');
+    }
   return (
     <div>
         <div>
-            <Button> <GoBell />Plain</Button>
+            <Button onClick={handleClick}> <GoBell />Plain</Button>
         </div>
         <div>
             <Button outline rounded primary><GoDatabase />Primary</Button>
