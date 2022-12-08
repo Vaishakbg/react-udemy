@@ -1,10 +1,11 @@
 import React from "react";
 import 'bulma/css/bulma.css';
+import RouterApp from "./RouterApp/RouterApp";
 
 function App() {
   return (
       <div>
-        App
+        <RouterApp />
       </div>
   );
 }
