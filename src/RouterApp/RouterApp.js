@@ -14,10 +14,10 @@ function RouterApp() {
             <Button warning outlined>Bye Now!</Button>
         </div>
         <div>
-            <Button danger rounded>Click Heare!</Button>
+            <Button danger rounded>Click Here!</Button>
         </div>
         <div>
-            <Button danger outlined>Hi</Button>
+            <Button danger outlined>Danger</Button>
         </div>
     </div>
   )
