@@ -2,7 +2,7 @@ import React from 'react'
 import ButtonPage from "./pages/ButtonPage";
 
 
-function ButtonApp() {
+function ProjectThreeApp() {
   return (
     <div>
         <ButtonPage />
@@ -10,4 +10,4 @@ function ButtonApp() {
   )
 }
 
-export default ButtonApp
+export default ProjectThreeApp

@@ -1,11 +1,11 @@
 import React from "react";
 import 'bulma/css/bulma.css';
-import ButtonApp from "./ButtonComponent/ButtonApp";
+import ProjectThreeApp from "./ProjectThree/ProjectThreeApp";
 
 function App() {
   return (
       <div>
-        <ButtonApp />
+        <ProjectThreeApp />
       </div>
   );
 }
