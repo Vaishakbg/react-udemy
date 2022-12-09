@@ -3,7 +3,7 @@ import React from 'react'
 import Button from './Button'
 
 
-function RouterApp() {
+function ButtonApp() {
     const handleClick = () => {
         console.log('clicked');
     }
@@ -31,4 +31,4 @@ function RouterApp() {
   )
 }
 
-export default RouterApp
+export default ButtonApp

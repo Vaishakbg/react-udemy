@@ -1,11 +1,11 @@
 import React from "react";
 import 'bulma/css/bulma.css';
-import RouterApp from "./ButtonComponent/ButtonApp";
+import ButtonApp from "./ButtonComponent/ButtonApp";
 
 function App() {
   return (
       <div>
-        <RouterApp />
+        <ButtonApp />
       </div>
   );
 }
