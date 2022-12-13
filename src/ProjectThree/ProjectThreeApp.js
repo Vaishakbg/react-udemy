@@ -3,10 +3,14 @@ import Dropdown from './components/Dropdown'
 
 
 function ProjectThreeApp() {
-  
+  const options = [
+    {name:'Red', value:'red'},
+    {name:'Green', value:'green'},
+    {name:'Blue', value:'blue'},
+  ];
   return (
     <div>
-      <Dropdown />
+      <Dropdown options={options}/>
     </div>
   )
 }
