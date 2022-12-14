@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Dropdown({options}) {
+  const [isOpen, setIsOpen] = useState(false)
+  const renderedOptions = options.map((option)=> {
+    return <div key={option.value}>{option.name}</div>
+  });
+  const handleClick = ()=> {
+    setIsOpen(!isOpen);
+  }
   return (
-    <div>Dropdown</div>
+    <div>
+      <div onClick={handleClick}>Select...</div>
+      {isOpen && <div>{renderedOptions}</div>}
+    </div>
   )
 }
 
