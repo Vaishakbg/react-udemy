@@ -14,7 +14,7 @@ function ProjectThreeApp() {
     setSelection(option)
   }
   return (
-    <div>
+    <div className='flex'>
       <Dropdown options={options} value={selection} onChange={handleSelection} />
     </div>
   )
