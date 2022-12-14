@@ -15,7 +15,7 @@ function ProjectThreeApp() {
   }
   return (
     <div>
-      <Dropdown options={options} selection={selection} onSelect={handleSelection} />
+      <Dropdown options={options} value={selection} onChange={handleSelection} />
     </div>
   )
 }
