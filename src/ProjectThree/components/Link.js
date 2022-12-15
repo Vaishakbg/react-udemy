@@ -5,13 +5,16 @@ function Link({to, children}) {
     const {navigate} = useContext(NavigationContext);
 
     const handleClick = (e)=>{
+        if(e.metaKey || e.ctrlKey) { //let User to open link pressing Ctrl key or Command Key
+            return;
+        }
         e.preventDefault();
         navigate(to);
     };
 
 
   return (
-    <a onClick={handleClick}>{children}</a>
+    <a href={to} onClick={handleClick}>{children}</a>
   )
 };
 
