@@ -1,11 +1,11 @@
 import React from 'react'
+import Link from './components/Link'
 
 function ProjectThreeApp() {
-  //window.history.pushState({},'','/dropdown'); Add path to URL without refreshing page
-  //window.addEventListener('popstate',()=>console.log('Im at',window.location.pathname));
-  return (
+ return (
     <div className=''>
-      App
+      <Link to={'/accordion'}>Accordion</Link>
+      <Link to={'/dropdown'}>Dropdown</Link>
     </div>
   )
 }
