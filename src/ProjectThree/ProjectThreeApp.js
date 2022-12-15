@@ -1,11 +1,10 @@
 import React from 'react'
-import DropdownPage from './pages/DropdownPage'
-
 
 function ProjectThreeApp() {
+  //window.history.pushState({},'','/dropdown'); Add path to URL without refreshing page
   return (
     <div className=''>
-      <DropdownPage />
+      App
     </div>
   )
 }
