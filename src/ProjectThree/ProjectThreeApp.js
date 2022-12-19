@@ -5,6 +5,7 @@ import AccordionPage from './pages/AccordionPage';
 import ButtonPage from './pages/ButtonPage';
 import DropdownPage from './pages/DropdownPage';
 import ModalPage from './pages/ModalPage';
+import TablePage from './pages/TablePage';
 
 function ProjectThreeApp() {
  return (
@@ -22,6 +23,9 @@ function ProjectThreeApp() {
         </Route>
         <Route path='/modal'>
           <ModalPage />
+        </Route>
+        <Route path='/table'>
+          <TablePage />
         </Route>
       </div>
     </div>
