@@ -8,7 +8,7 @@ import ModalPage from './pages/ModalPage';
 
 function ProjectThreeApp() {
  return (
-    <div className='mx-auto grid grid-cols-6 gap-4 mt-4'>
+    <div className='container mx-auto grid grid-cols-6 gap-4 mt-4'>
       <Sidebar />
       <div className='col-span-5'>
         <Route path='/accordion'>
