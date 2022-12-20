@@ -7,6 +7,7 @@ function Table({ data, config, keyFn }) {
     }
     return <th key={column.label}>{column.label}</th>;
   });
+
   const renderedRows = data.map((rowData) => {
     const renderedCells = config.map((column) => {
       return (
@@ -21,6 +22,7 @@ function Table({ data, config, keyFn }) {
       </tr>
     );
   });
+
   return (
     <table className="table-auto border-spacing-2">
       <thead>
