@@ -29,12 +29,33 @@ function TablePage() {
   };
 
   function init(){
-    const data = [5,3,2,10];
-    console.log(data.sort());
-    console.log(data.sort((a,b)=> a-b));
-    const str=["t","A","c","a"]
-    console.log(str.sort());
-    console.log(str.sort((a,b)=> a.localeCompare(b)));
+    // const data = [5,3,2,10];
+    // console.log(data.sort());
+    // console.log(data.sort((a,b)=> a-b));
+    // const str=["t","A","c","a"]
+    // console.log(str.sort());
+    // console.log(str.sort((a,b)=> a.localeCompare(b)));
+
+    //***** Object Sorting */
+    const data = [
+      { name: 'Tomato', cost: 10, weight: 5 },
+      { name: 'Onion', cost: 5, weight: 2 },
+      { name: 'Carrot', cost: 20, weight: 4 },
+    ]
+    function getSortValue(veg){
+      return veg.name
+    }
+    let sortedData = data.sort( (a,b) => {
+      const valA = getSortValue(a);
+      const valB = getSortValue(b);
+      if(typeof valA === 'string'){
+        return valA.localeCompare(valB)
+      } else {
+        return valA - valB
+      }
+      
+    });
+    console.log(sortedData);
   }
   init();
 
