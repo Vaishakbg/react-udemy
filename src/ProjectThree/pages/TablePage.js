@@ -42,16 +42,23 @@ function TablePage() {
       { name: 'Onion', cost: 5, weight: 2 },
       { name: 'Carrot', cost: 20, weight: 4 },
     ]
+
     function getSortValue(veg){
       return veg.name
     }
+
+    const sortOrder = 'desc';
+
     let sortedData = data.sort( (a,b) => {
       const valA = getSortValue(a);
       const valB = getSortValue(b);
+
+      const reverseOrder = sortOrder === 'asc' ? 1 : -1;
+      
       if(typeof valA === 'string'){
-        return valA.localeCompare(valB)
+        return valA.localeCompare(valB) * reverseOrder
       } else {
-        return valA - valB
+        return (valA - valB) * reverseOrder;
       }
       
     });
