@@ -5,13 +5,13 @@ function Table({ data, config, keyFn }) {
     if (column.header) {
       return <Fragment key={column.label}>{column.header()}</Fragment>;
     }
-    return <th key={column.label}>{column.label}</th>;
+    return <th className="px-3 py-1 " key={column.label}>{column.label}</th>;
   });
 
   const renderedRows = data.map((rowData) => {
     const renderedCells = config.map((column) => {
       return (
-        <td className="p-2" key={column.label}>
+        <td className="px-3 py-1" key={column.label}>
           {column.render(rowData)}
         </td>
       );
