@@ -1,29 +1,38 @@
-import React, { useState } from "react";
+import React, { useReducer } from "react";
 import Button from "../components/Button";
 import Panel from "../components/Panel";
 
+const reducer = (state, action) => {
+  //
+}
+
 function CounterPage({ initialCount }) {
-  const [count, setCount] = useState(initialCount);
-  const [valueToAdd, setValueToAdd] = useState(0);
+  // const [count, setCount] = useState(initialCount);
+  // const [valueToAdd, setValueToAdd] = useState(0);
+
+  const [state, dispatch] = useReducer(reducer, {
+    count: initialCount,
+    valueToAdd: 0
+  })
 
   const increment = () => {
-    setCount(count + 1);
+    // setCount(count + 1);
   };
   const decrement = () => {
-    setCount(count - 1);
+    // setCount(count - 1);
   };
   const handleChange = (e) => {
     const value = parseInt(e.target.value) || 0;
-    setValueToAdd(value);
+    // setValueToAdd(value);
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    setCount(count + valueToAdd);
-    setValueToAdd(0);
+    // setCount(count + valueToAdd);
+    // setValueToAdd(0);
   };
   return (
     <Panel className="m-3">
-      <h1 className="text-lg">Count is {count}</h1>
+      <h1 className="text-lg">Count is {state.count}</h1>
       <div className="flex flex-row">
         <Button primary onClick={increment}>
           Increment
@@ -35,7 +44,7 @@ function CounterPage({ initialCount }) {
       <form onSubmit={handleSubmit}>
         <label htmlFor="no">Add a lot!</label>
         <input
-          value={valueToAdd || ""}
+          value={state.valueToAdd || ""}
           onChange={handleChange}
           type="number"
           id="no"
