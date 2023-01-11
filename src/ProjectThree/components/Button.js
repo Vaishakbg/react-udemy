@@ -36,6 +36,7 @@ function Button({
 }
 
 Button.propTypes = {
+  primary: propTypes.any,
   checkVariationValue: ({ primary, secondary, success, warning, danger }) => {
     // console.log(props);
     const count =
