@@ -1,11 +1,13 @@
 import React from "react";
-// import 'bulma/css/bulma.css';
+import ProjectRedux from "./ProjectRedux/ProjectRedux";
+import 'bulma/css/bulma.css';
 import ProjectThreeApp from "./ProjectThree/ProjectThreeApp";
 
 function App() {
   return (
       <div>
-        <ProjectThreeApp />
+        {/* <ProjectThreeApp /> */}
+        <ProjectRedux />
       </div>
   );
 }
