@@ -1,15 +1,17 @@
 import React from 'react'
+import { useDispatch } from 'react-redux';
 import { createRandomSong } from '../data';
+import { addSong } from '../store';
 
 function SongPlaylist() {
+  const dispatch = useDispatch();
   // To Do:
   // Get list of songs
   const songPlaylist = [];
 
   const handleSongAdd = (song) => {
-    // To Do:
-    // Add song to list of songs
-    console.log(song);
+    const action = addSong(song)
+    dispatch(action);
   };
   const handleSongRemove = (song) => {
     // To Do:
