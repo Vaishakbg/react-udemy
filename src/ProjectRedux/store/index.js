@@ -30,10 +30,12 @@ const songsSlice = createSlice({
     },
   },
   extraReducers(builder) {
-    builder.addCase('movie/reset', (state, action)=>{
-        return [];
-    })
-  }
+    //*********** */ builder.addCase('movie/reset', (state, action)=>{
+    //*********** */ builder.addCase(moviesSlice.actions.reset.toString(), (state, action)=>{
+    builder.addCase(moviesSlice.actions.reset, (state, action) => {
+      return [];
+    });
+  },
 });
 
 const store = configureStore({
