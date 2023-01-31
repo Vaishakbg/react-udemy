@@ -21,9 +21,7 @@ function CarForm() {
     e.preventDefault();
     dispatch(addCar({
       name, cost
-    }))
-    dispatch(changeCost(0));
-    dispatch(changeName(''));
+    }));
   }
   return (
     <div className="car-form panel">
