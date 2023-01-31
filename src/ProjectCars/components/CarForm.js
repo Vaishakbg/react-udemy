@@ -20,7 +20,7 @@ function CarForm() {
   const handleSubmit = (e)=>{
     e.preventDefault();
     dispatch(addCar({
-      name, cost
+      name, cost: Number(cost)
     }));
   }
   return (
