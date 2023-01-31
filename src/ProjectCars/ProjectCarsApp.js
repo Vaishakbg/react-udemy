@@ -1,9 +1,13 @@
 import React from "react";
+import { Provider } from "react-redux";
 import ProjectCar from "./ProjectCar";
+import {store} from './store'
 
 function ProjectCarsApp() {
   return (
-      <ProjectCar />
+      <Provider store={store}>
+        <ProjectCar />
+      </Provider>
   );
 }
 
