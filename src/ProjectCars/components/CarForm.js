@@ -15,7 +15,6 @@ function CarForm() {
     dispatch(changeName(e.target.value));
   };
   const handleCostChange = (e) => {
-
     dispatch(changeCost(e.target.value));
   };
   const handleSubmit = (e)=>{
@@ -23,7 +22,8 @@ function CarForm() {
     dispatch(addCar({
       name, cost
     }))
-    console.log();
+    dispatch(changeCost(0));
+    dispatch(changeName(''));
   }
   return (
     <div className="car-form panel">
