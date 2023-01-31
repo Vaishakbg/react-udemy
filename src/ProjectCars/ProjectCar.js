@@ -6,7 +6,7 @@ import CarValue from "./components/CarValue";
 
 function ProjectCar() {
   return (
-    <div>
+    <div className="container p-3">
       <CarForm />
       <CarSearch />
       <CarList />
