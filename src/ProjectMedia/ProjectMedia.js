@@ -1,8 +1,11 @@
+import UserList from "./components/UserList";
 
 
 function ProjectMedia() {
   return (
-      <div>ProjectMedia</div>
+      <div className="container mx-auto">
+        <UserList />
+      </div>
   );
 }
 
