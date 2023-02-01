@@ -20,5 +20,8 @@
       "title": "Murder on Orient Express",
       "id": 6
     }
-  ]
+  ],
+  "users": [{ "id": 1, "name": "Myra" }],
+  "albums": [],
+  "photos": []
 }
