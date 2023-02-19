@@ -21,7 +21,28 @@
       "id": 6
     }
   ],
-  "users": [{ "id": 1, "name": "Myra" }],
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Emily Stark",
+      "id": 2
+    },
+    {
+      "name": "Laurence Abshire",
+      "id": 3
+    },
+    {
+      "name": "Everett Schultz",
+      "id": 4
+    },
+    {
+      "name": "Kayla Parker",
+      "id": 5
+    }
+  ],
   "albums": [],
   "photos": []
 }
