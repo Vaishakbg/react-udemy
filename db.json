@@ -23,8 +23,8 @@
   ],
   "users": [
     {
-      "name": "Fannie Bergnaum",
-      "id": 13
+      "name": "Myra",
+      "id": 1
     },
     {
       "name": "Mr. Christopher Swift",
@@ -55,6 +55,12 @@
       "id": 23
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 1
+    }
+  ],
   "photos": []
 }
