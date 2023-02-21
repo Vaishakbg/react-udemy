@@ -23,26 +23,6 @@
   ],
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
-    },
-    {
-      "name": "Dr. Nathaniel Kutch",
-      "id": 9
-    },
-    {
-      "name": "Anne Quigley",
-      "id": 10
-    },
-    {
-      "name": "Julian Kunze",
-      "id": 11
-    },
-    {
-      "name": "Dorothy Erdman Sr.",
-      "id": 12
-    },
-    {
       "name": "Fannie Bergnaum",
       "id": 13
     },
@@ -53,6 +33,26 @@
     {
       "name": "Francis Bashirian",
       "id": 18
+    },
+    {
+      "name": "Hazel Cassin",
+      "id": 19
+    },
+    {
+      "name": "Florence Wunsch",
+      "id": 20
+    },
+    {
+      "name": "Francis O'Reilly",
+      "id": 21
+    },
+    {
+      "name": "Ricky Lueilwitz",
+      "id": 22
+    },
+    {
+      "name": "Juan Klocko",
+      "id": 23
     }
   ],
   "albums": [],
