@@ -110,7 +110,18 @@
       "userId": 17,
       "title": "Luxurious Frozen Keyboard",
       "id": 28
+    },
+    {
+      "userId": 1,
+      "title": "Licensed Concrete Tuna",
+      "id": 29
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=52897",
+      "id": 1
+    }
+  ]
 }
