@@ -62,39 +62,9 @@
       "id": 12
     },
     {
-      "userId": 17,
-      "title": "Licensed Plastic Sausages",
-      "id": 13
-    },
-    {
-      "userId": 1,
-      "title": "Oriental Rubber Salad",
-      "id": 14
-    },
-    {
       "userId": 1,
       "title": "Rustic Rubber Soap",
       "id": 15
-    },
-    {
-      "userId": 17,
-      "title": "Ergonomic Rubber Car",
-      "id": 16
-    },
-    {
-      "userId": 17,
-      "title": "Modern Concrete Tuna",
-      "id": 17
-    },
-    {
-      "userId": 17,
-      "title": "Fantastic Metal Mouse",
-      "id": 18
-    },
-    {
-      "userId": 17,
-      "title": "Small Wooden Computer",
-      "id": 19
     },
     {
       "userId": 17,
@@ -130,6 +100,16 @@
       "userId": 1,
       "title": "Ergonomic Frozen Bike",
       "id": 26
+    },
+    {
+      "userId": 1,
+      "title": "Fantastic Frozen Shoes",
+      "id": 27
+    },
+    {
+      "userId": 17,
+      "title": "Luxurious Frozen Keyboard",
+      "id": 28
     }
   ],
   "photos": []
