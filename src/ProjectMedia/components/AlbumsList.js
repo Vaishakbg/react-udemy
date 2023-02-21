@@ -29,9 +29,9 @@ function AlbumsList({ user }) {
 
   return (
     <div>
-      <div className="flex justify-between">
-        AlbumsList for {user.name}
-        <Button onClick={handleAddAlbum}>+ Add Album</Button>
+      <div className="m-2 flex  flex-row items-center justify-between">
+        <h3 className="text-lg font-bold">AlbumsList for {user.name}</h3>
+        <Button onClick={handleAddAlbum} loading={results.isLoading}>+ Add Album</Button>
       </div>
       <div>{content}</div>
     </div>
