@@ -57,11 +57,6 @@
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 1
-    },
-    {
       "userId": 1,
       "title": "Oriental Cotton Chicken",
       "id": 11
@@ -130,6 +125,16 @@
       "userId": 1,
       "title": "Modern Frozen Mouse",
       "id": 24
+    },
+    {
+      "userId": 18,
+      "title": "Unbranded Bronze Sausages",
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "title": "Ergonomic Frozen Bike",
+      "id": 26
     }
   ],
   "photos": []
